@@ -2,7 +2,7 @@
 # Binary package from GitHub Releases (f00-sh/joule)
 
 pkgname=joule-bin
-pkgver=0.1.2
+pkgver=0.1.3
 pkgrel=1
 pkgdesc="Donate idle compute, earn millijoules, use open-weight AI (prebuilt binary)"
 arch=('x86_64' 'aarch64')
@@ -13,8 +13,8 @@ conflicts=('joule')
 options=('!strip')
 source_x86_64=("https://github.com/f00-sh/joule/releases/download/v${pkgver}/joule-${pkgver}-linux-x86_64.tar.gz")
 source_aarch64=("https://github.com/f00-sh/joule/releases/download/v${pkgver}/joule-${pkgver}-linux-aarch64.tar.gz")
-sha256sums_x86_64=('376ab1b59a97d8a620004a925ea468b9a91cdc6876f0997bf14d3e2eb26aa787')
-sha256sums_aarch64=('e254e69b462c7737026826d8a7d895838266021441c5233bfaaf0dc68577f7f9')
+sha256sums_x86_64=('5f77122c25f0eb83662329033e100a3919bc14af059657cc877a08ea1542470b')
+sha256sums_aarch64=('337af68f79a5eb70b3c9e48f57fc45f75a09dd40b3c57d1116bff215ff7062e8')
 
 package() {
   cd "${srcdir}"
