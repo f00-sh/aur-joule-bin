@@ -1,16 +1,11 @@
-# joule-bin (f00-sh)
+# joule-bin (AUR)
 
-Published PKGBUILD for **joule** prebuilt binaries from [f00-sh/joule](https://github.com/f00-sh/joule) Releases.
-
-## Install (Arch)
+Official package on **[aur.archlinux.org/packages/joule-bin](https://aur.archlinux.org/packages/joule-bin)**.
 
 ```bash
-# from this f00-sh package source
-git clone https://github.com/f00-sh/aur-joule-bin.git
-cd aur-joule-bin
-makepkg -si
+yay -S joule-bin
 ```
 
-Or with yay from a local path after clone.
+This GitHub repo is a **mirror** of the AUR PKGBUILD for f00-sh ops.
 
-Digests pin GitHub Release `v0.1.2` (`SHA256SUMS` on the release).
+Upstream: [f00-sh/joule](https://github.com/f00-sh/joule) releases.
