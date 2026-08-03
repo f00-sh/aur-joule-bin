@@ -1,6 +1,6 @@
 pkgbase = joule-bin
 	pkgdesc = Donate idle compute, earn millijoules, use open-weight AI (prebuilt binary)
-	pkgver = 0.1.9
+	pkgver = 0.1.10
 	pkgrel = 1
 	url = https://joule.f00.sh/
 	arch = x86_64
@@ -9,9 +9,9 @@ pkgbase = joule-bin
 	provides = joule
 	conflicts = joule
 	options = !strip
-	source_x86_64 = https://github.com/f00-sh/joule/releases/download/v0.1.9/joule-0.1.9-linux-x86_64.tar.gz
-	sha256sums_x86_64 = 856baa9e720dbe5728f10aa4fdb41e6aeccb088c2efd8aeb8180777bb91a011c
-	source_aarch64 = https://github.com/f00-sh/joule/releases/download/v0.1.9/joule-0.1.9-linux-aarch64.tar.gz
-	sha256sums_aarch64 = 0d64f90d8e2307ff07e1cd001f020697a070504a474aa7b01f37f2b0a5164cd9
+	source_x86_64 = https://github.com/f00-sh/joule/releases/download/v0.1.10/joule-0.1.10-linux-x86_64.tar.gz
+	sha256sums_x86_64 = 07d9b82abd1ddd3844d5ffeb239f1d2a205ca659d437c8e1c6237697bc712662
+	source_aarch64 = https://github.com/f00-sh/joule/releases/download/v0.1.10/joule-0.1.10-linux-aarch64.tar.gz
+	sha256sums_aarch64 = 26c98d00cca21cd583e6e4d6dc90f5d9cd5e4410f22f5ce992cc8c5cd33f0d7f
 
 pkgname = joule-bin
